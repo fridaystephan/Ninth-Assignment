@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Sacramento&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+.container-1{
+    background-color: rgb(214, 234, 241);
+    position: relative;
+    height: 400px;
+    width: 100%;
+}
+.name{
+    padding-top: 40px;
+    text-align: center;
+    color: rgb(42, 204, 155);
+    font-family: 'Sacramento', cursive;
+    font-size: 60px;
+}
+.programmer{
+    text-align: center;
+    color: rgb(42, 204, 155);
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+.pro{
+    text-decoration: underline;
+}
+.cloud1{
+    position: absolute;
+    top: 160px;
+    left: 100px;
+    width: 100px;
+}
+.cloud2{
+    position: absolute;
+    left: 1000px;
+    top: 10px;
+    width: 100px;
+}
+.mountain{
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+.my-image{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.pic{
+    height: 150px;
+    width: 150px;
+}
+.hello{
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(42, 204, 155);
+    text-align: center;
+}
+.about{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 20px 420px;
+}
+.my-skills{
+    margin: 20px 350px;
+}
+.skill{
+    color: rgb(105, 170, 223);
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 70px;
+    font-family: 'Poppins', sans-serif;
+}
+.web{
+    border-top: 8px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 60px;
+}
+.computer{
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin-right: 10px;
+}
+.webtitle{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(42, 204, 155);
+    font-weight: lighter;
+}
+.aboutweb{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+.student{
+    border-top: 8px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 60px;
+}
+.teacher{
+    height: 150px;
+    width: 150px;
+    float: right;
+    margin-right: 10px;
+}
+.portfolio{
+    background-color: rgb(240, 230, 230);
+    padding-top: 50px;
+    padding-bottom: 50px;   
+}
+.my{
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(37, 197, 37);
+    padding-bottom: 15px;
+    text-align: center;
+    text-decoration: 3px underline;
+    text-decoration-color: rgb(42, 204, 155);
+}
+.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+
+}
+.images img{
+    height: 300px;
+    width: 300px;
+    margin: 5px;
+    transition: transform .5s;
+}
+.images img:hover{
+    -ms-transform: scale(1.1);  
+    transform: scale(1.1);
+}
+.touch{
+    text-align: center;
+    padding-top: 80px;
+    line-height: 1.8;
+    padding-bottom: 80px;
+}
+.get{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(42, 204, 155);
+    font-weight: lighter;
+}
+.love{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(42, 204, 155);
+    font-size: 18px;
+}
+.hit{
+    font-family: 'Poppins', sans-serif;
+}
+.contact{
+    background-color: rgb(42, 204, 155);
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    padding: 3px;
+    border-radius: 5px;
+    margin-left: 350px;
+    margin-top: 30px;
+}
+.contact:hover{
+    background-color: rgb(140, 240, 39);
+}
+.contact a{
+    text-decoration: none;
+}
+footer{
+    background-color: rgb(69, 192, 155);
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.connect {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.connect a {
+    color: rgba(12, 138, 143, 0.822);
+    text-decoration: none;
+}
+.connect p {
+    margin-left: 30px;
+}
+.connect a span{
+    margin-right: 5px;
+}
+.copyright{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
